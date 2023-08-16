@@ -1,0 +1,278 @@
+
+*{
+    /*responsividade*/
+    height: 100%;
+    box-sizing: border-box;
+}
+.fixed{
+    margin-top: 2%;
+}
+body{
+    /*Responsividade*/
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to top, #66a18144, #ce96a676,#66a1815d,#ce96a6d0);
+    margin: 0;
+    font-size: 16px;
+}
+.P{
+    max-width: 50%;
+    margin-top: -26%;
+    color:black;
+    font-size: 120%;
+}
+.mae{
+    /*responsividade*/
+    position: absolute;
+    background-image: url(/image.png);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 45px;
+    background-color: #e77e9c6f;
+    border-radius: 40px;
+    border: 4px solid white;
+    max-width: 410px;
+    max-height: 90%;
+    margin-bottom: 15px;
+}
+
+.resultado{
+    background-color:rgba(57, 128, 59, 0.45);
+    width: 89%;
+    height: 110px;
+    text-align: center;
+    margin-left: 8%;
+    border-radius: 6px;
+    border: 2px solid rgba(128, 128, 128, 0.509);  
+}
+.calculadora{
+    /*separação e "design simples" dos botões*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.calculadora input{
+    padding: 10px 20px 40px;
+    border: 2px solid rgba(128, 128, 128, 0.459);
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgba(163, 32, 119, 0.094);
+    width: 95%;
+    height: 20px;
+}
+.calculadora input:active{
+    transform: scale(0.99);
+}
+.mais{
+    margin-top:-58px;
+    height: 50px;
+    width:45px ;
+    background-color:rgba(128, 128, 128, 0.779);
+    border-radius: 6px;
+    color: rgba(17, 167, 22, 0.927);
+    margin-left: 14px;
+    border: 2px solid wheat;
+}
+.menos{
+    margin-top: -94%;
+    height: 50px;
+    width:45px ;
+    background-color: #66a181cf;
+    border-radius: 6px;
+    color: rgba(17, 167, 22, 0.929);
+    margin-left: 14px;
+    border: 2px solid wheat;  
+}
+.multi{ 
+    margin-top:90px;
+    height: 50px;
+    width:45px ;
+    background-color: #66a181cf;
+    border-radius: 6px;
+    color: rgba(17, 167, 22, 0.884);
+    margin-left: 10px;
+    border: 2px solid wheat;
+
+}
+.div{
+    margin-top: -43px;
+    background-color:  #66a181c5;
+    border-radius: 6px;
+    height: 78px;
+    width:45px ;
+    color: rgba(17, 167, 22, 0.925);
+    margin-left: 12px;
+    border: 2px solid wheat;
+    
+}
+.porcentagem{
+
+    margin-top: 90px;
+    color: rgba(17, 167, 22, 0.696);
+    border-radius: 6px;
+    height: 50px;
+    width:45px ;
+    margin-left: 15px;
+    border: 2px solid wheat;
+
+}
+
+.igual{
+    margin-top: -76px;
+    height: 50px;
+    width:45px;
+    background-color:  #66a181cf;
+    border-radius: 6px;
+    color: rgba(17, 167, 22, 0.696);
+    margin-left: 19%;
+    border: 2px solid wheat;
+
+}
+.limpa{
+    margin-left: 31%;
+    margin-top: 90px;
+    border-radius: 6px;
+    color: rgba(17, 167, 22, 0.749);
+    border: 3px solid rgb(0, 255, 38);
+ 
+}
+.apagarUm{
+    margin-top: 90px;
+    border-radius: 6px;
+    background-color: #66a181c5;
+    color: rgba(17, 167, 22, 0.696);
+    border: 2px solid blue;
+    margin-left: 24%;
+
+}
+.um{
+    margin-left: 18%;
+   margin-top:-43px;
+    max-width: 100%;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid wheat;
+    
+}
+.dois{
+    margin-top:-43px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 4px solid wheat;
+
+}
+.tres{
+    margin-left: 18%;
+    margin-top:-76%;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid wheat;
+    margin-left: 18%;
+}
+.quatro{
+    margin-left: 18%;
+    margin-top:-58px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid wheat;
+}
+.cinco{
+    margin-left: 18%;
+    margin-top:-58px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid wheat;
+}
+.seis{
+    margin-top: -77px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid wheat;
+   margin-left: 13%;
+}
+.sete{
+    margin-left: 18%;
+    margin-top:-73px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid wheat;
+}
+.oito{
+    margin-left: 18%;
+    margin-top:-43px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    border: 3px solid wheat;
+}
+.nove{
+    margin-left: -5%;
+    margin-top:-73px;
+    height: 40px;
+    width:67px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    margin-left: 16px;
+    border: 3px solid wheat;
+}
+.zero{
+    max-width: 100%;
+    height: 35px;
+    width:55px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    margin-top: -76px;
+    border: 3px solid wheat;
+    margin-left: 15%;
+    box-shadow: 20px solid rgb(205, 199, 199);
+}
+.zerozero{
+    margin-left: 21%;
+    max-width: 100%;
+    height: 35px;
+    width:55px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    margin-top: -73px;
+    border: 3px solid wheat;
+    margin-left: 18%;
+    box-shadow: 20px solid rgb(205, 199, 199);
+}
+.ponto{
+    max-width: 100%;
+    height: 35px;
+    width:55px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    margin-top: -76px;
+    border: 3px solid wheat;
+    margin-left: 14px;
+    box-shadow: 20px solid rgb(205, 199, 199);
+}
