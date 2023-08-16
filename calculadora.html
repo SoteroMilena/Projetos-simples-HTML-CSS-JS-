@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="mae">
+    
+    <div class="resultado">
+        <h4 class="fixed">RESULTADO:</h4>
+        <!--A classe P recebe o valor digitado no botão e exibe o mesmo na tela -->
+        <strong><p class="P"></p></strong>
+   
+    </div>
+    <!--classe calculadora possui todos os inputes juntos, o intuito dessa classe
+    é facilitar na hora de modelar todos os botoes da calculadora.-->
+    <div class="calculadora">
+        <!--Src chama o js para este código html-->
+         <script src="calculadora.js"></script>
+         
+         <!--Aqui tenho todos os botões da calculadora, onde uso o onclick para invocar/chamar os metodos(funçoes contidas no js)-->
+         <input type="reset" value="AC" onclick="clean()" class="limpa">
+         <input type="button" value="DEL" onclick="cleanUm()" class="apagarUm">
+         <input type="button" value="%" onclick="insert('%')" class="porcentagem">
+         <input type="button" value="*" onclick="insert('*')" class="multi">
+         <input type="button" value="2" onclick="insert('2')" class="um">
+         <input type="button" value="8" onclick="insert('8')" class="oito">
+         <input type="button" value="1" onclick="insert('1')" class="um">
+         <input type="button" value="/" onclick="insert('/')" class="div">
+         <input type="button" value="4" onclick="insert('4')" class="quatro">
+         <input type="button" value="5" onclick="insert('5')" class="cinco">
+         <input type="button" value="3" onclick="insert('3')" class="tres">
+         <input type="button" value="+" onclick="insert('+')" class="mais">
+         <input type="button" value="7" onclick="insert('7')" class="sete">
+         <input type="button" value="9" onclick="insert('9')" class="nove">
+         <input type="button" value="00" onclick="insert('00')" class="zerozero">
+         <input type="button" value="-" onclick="insert('-')" class="menos">
+         <input type="button" value="6" onclick="insert('6')" class="seis">
+         <input type="button" value="0" onclick="insert('0')" class="zero">
+         <input type="button" value="." onclick="insert('.')" class="ponto">
+         <input type="button" value="=" onclick="calcular()" class="igual"> 
+    </div>
+</div>
+</body>
+</html>
